@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:gravity="bottom">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_gravity="bottom"
+        android:layout_weight="5"
+        android:background="@color/gray"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/footer_imghome"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_weight="0.86"
+            android:padding="10dp"
+            android:src="@mipmap/ic_home_unselected" />
+
+        <ImageView
+            android:id="@+id/footer_imggeneral"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_weight="0.86"
+            android:padding="10dp"
+            android:src="@mipmap/ic_general_unselected" />
+
+        <ImageView
+
+            android:id="@+id/footer_imgaddquestion"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:src="@mipmap/ic_likenotification_unselected" />
+
+
+        <ImageView
+            android:id="@+id/footer_imgnotification"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:src="@mipmap/ic_notification_unselected" />
+
+        <ImageView
+            android:id="@+id/footer_imgsearch"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:src="@mipmap/ic_search_unselected" />
+
+        <ImageView
+            android:id="@+id/footer_imguserprofile"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:src="@mipmap/ic_userprofile_unselected" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
