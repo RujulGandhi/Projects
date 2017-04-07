@@ -46,7 +46,7 @@ import butterknife.ButterKnife;
 import static com.example.raviarchi.daberny.Activity.Utils.DbBitmapUtility.getBytes;
 
 /**
- * Created by Ravi archi on 1/10/2017.
+ * Created by Ravi archi on 1/10/2017. Rujul
  */
 public class AskQuestionActivity extends AppCompatActivity implements View.OnClickListener, AdapterView.OnItemSelectedListener {
     private static final String TAG = "AskQuestion";
